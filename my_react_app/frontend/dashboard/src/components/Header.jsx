@@ -3,15 +3,14 @@
 function Header() {
 
     return (
-    <header>
-        <h1>Tonia is shit</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <header className="header">
+        <div className="logo">Antonia Mae G. Apostol</div>
+        <nav className="nav_links">
+                <a href="Home">Home</a>
+                <a href="About">About</a>
+                <a href="Work">Work</a>
+                <a href="Toolkit">Toolkit</a>
+                <a href="Contact">Let's talk</a>
         </nav>
     </header>
 );
